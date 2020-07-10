@@ -1,0 +1,12 @@
+<div id="res">
+<p>
+    <%= @res['location']['prefecture'] %>
+    (<%= @res['location']['city'] %>)
+</p>
+<p>
+    天気：
+    <span id="weather-res">
+    <%= @res['description']['text'] %>
+    </span>
+</p>
+</div>
